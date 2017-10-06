@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:nestedScrollingEnabled="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerview1"
+            android:nestedScrollingEnabled="false"
+
+
+            ></android.support.v7.widget.RecyclerView>\
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textctgry"
+            android:text="$ 100 to 200"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:nestedScrollingEnabled="false"
+            android:id="@+id/recyclerview2"
+
+
+
+            >
+
+
+        </android.support.v7.widget.RecyclerView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textctgry2"
+            android:text="$ 200 to 300"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:nestedScrollingEnabled="false"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerview3"
+
+
+
+            ></android.support.v7.widget.RecyclerView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textctgry1"
+            android:text="$ 300 Above"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerview4"
+            android:nestedScrollingEnabled="false"
+
+
+            ></android.support.v7.widget.RecyclerView>
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
